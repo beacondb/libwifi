@@ -10,11 +10,11 @@ mod parsers;
 mod traits;
 
 use crate::error::Error;
-use crate::parsers::*;
 
 // Re-exports for user convenience
 pub use crate::frame::Frame;
 pub use crate::frame_types::*;
+pub use crate::parsers::*;
 pub use crate::traits::*;
 
 /// Parse IEE 802.11 frames from raw bytes.
